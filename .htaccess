@@ -1,0 +1,7 @@
+# Sin listado de carpetas
+Options -Indexes
+
+# Archivo de prueba de conexion: no accesible desde el navegador
+<Files "prueba.php">
+    Require all denied
+</Files>

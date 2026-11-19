@@ -1,0 +1,5 @@
+﻿respaldos/*
+!respaldos/.gitignore
+_backup_pre_mvc/
+*.log
+.DS_Store
