@@ -46,8 +46,8 @@ CREATE TABLE IF NOT EXISTS asistencia (
 ) ENGINE=InnoDB;
 
 -- Usuario administrador inicial
---   Usuario:    admin
---   Contraseña: Infortec2026
+--   Usuario: admin
+-- La contraseña se guarda cifrada (password_hash) en la columna clave.
 -- Cámbiela después de instalar con:
 --   c:\xampp\php\php.exe herramientas\clave.php restablecer admin
 INSERT IGNORE INTO usuarios (usuario, clave, nombre)
